@@ -1,0 +1,1 @@
+while using the write then if there is no file it'll create one and write
