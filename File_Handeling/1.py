@@ -18,3 +18,8 @@ with open("demo2.txt", "w") as line:
     l1 = line.write("Hello from Python")
     line.write("\nHello from java")
     line.write("\nHello from SQL")
+    
+with open("demo2.txt", "r+") as file:
+    print("Before writing:", file.read())
+    file.seek(0)
+    file.write("\nLearning ")
